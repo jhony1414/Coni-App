@@ -1,0 +1,25 @@
+{
+    "name": "bienes-raices-mvc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Juanjo",
+    "license": "ISC",
+    "dependencies": {
+        "@paroi/express-edge": "^1.0.1",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mysql2": "^2.3.3",
+        "sequelize": "^6.21.1",
+        "sqlite3": "^5.0.8"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "nodemon": "^2.0.16"
+    }
+}
